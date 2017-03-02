@@ -1,0 +1,41 @@
+.projects {
+	.project {
+		width: 33.333%;
+		float: left;
+		background-size: cover;
+		min-height: 400px;
+		background-position: center center;
+		position: relative;
+		font-weight: 300;
+
+		.project_name {
+			background-color: scheme(1);
+			padding: 20px;
+			display: inline-block;
+			position: relative;
+		}
+
+		&:before {
+			content: '';
+			@include full();
+			background-color: rgba($black, 0);
+			transition: background-color $standard-transition;
+		}
+
+		&:hover {
+			&:before {
+				background-color: rgba($black, .4);
+			}
+		}
+
+		@include media-breakpoint-down(md) {
+			width: 50%;
+		}
+
+		@include media-breakpoint-down(sm) {
+			width: 100%;
+		}
+	}
+
+	@include clearfix();
+}

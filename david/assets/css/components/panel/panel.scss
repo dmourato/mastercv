@@ -1,0 +1,16 @@
+.panel {
+	background-size: cover;
+	background-color: scheme(1);
+	background-position: center center;
+
+	&.screen {
+		height: 100vh;
+	}
+
+	@each $color in $scheme-colors {
+		$index: index($scheme-colors, $color);
+		&.color_#{$index} {
+			background-color: $color;
+		}
+	}
+}

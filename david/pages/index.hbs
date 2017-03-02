@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>{{page_title}}</title>
+		<link rel="stylesheet" href="{{absolute_prefix}}assets/css/main.css">
+
+		{{!-- fonts --}}
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet">
+
+	</head>
+	<body>
+
+		{{#if display_edit_stamp}}
+			<a class="enduro_stamp" href="/admin">
+				<div>Edit this page</div>
+				<div>{{>enduro_e}}</div>
+			</a>
+		{{/if}}
+
+		<div class="panel screen" style="background-image: url('{{main_image}}')">
+			<div class="veil"></div>
+			<div class="panel_body fullwidth">
+
+				<div class="contentbox">
+					<div class="contentbox_content">
+						<h1>{{name}}</h1>
+						<h2>{{specialty}}</h2>
+					</div>
+				</div>
+
+			</div>
+		</div>
+
+		<div class="panel">
+			<div class="panel_body">
+				<div class="row">
+					<div class="col-md-8 offset-md-2">
+						<h1>{{name}}</h1>
+						<h2>{{specialty}}</h2>
+						<p>{{background}}</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="panel projects">
+			<div class="panel_body fullwidth">
+
+				{{#each projects}}
+					<a href="{{link}}" target="_blank" class="project" style="background-image: url('{{image}}')">
+						<div class="project_info">
+							<div class="project_name">{{title}}</div>
+						</div>
+					</a>
+				{{/each}}
+
+			</div>
+		</div>
+
+		<div class="panel socials color_3">
+			<div class="panel_body">
+				{{#each social}}
+					<a class="social" href="{{link}}">
+						<div class="social_icon">
+							<i class="fa fa-{{icon}}"></i>
+						</div>
+						<div class="wedge-3x"></div>
+						<div class="social_text">
+							{{text}}
+						</div>
+					</a>
+				{{/each}}
+			</div>
+		</div>
+
+		<div class="panel screen" style="background-image: url('{{hobby_background}}')">
+			<div class="veil"></div>
+			<div class="panel_body fullwidth">
+
+				<div class="contentbox">
+					<div class="contentbox_content">
+						<h1>{{hobby_title}}</h1>
+						<h2>{{hobby_subtitle}}</h2>
+					</div>
+				</div>
+
+			</div>
+		</div>
+
+		<div class="panel color_3 text_center">
+			<div class="panel_body">
+				<h2>{{cta_tagline}}</h2>
+				<div class="wedge"></div>
+				<h3>{{cta_text}}</h3>
+				<div class="wedge-3x"></div>
+				<a class="btn" href="mailto:gottwik@gmail.com">Contact me</a>
+			</div>
+		</div>
+
+		<footer class="panel color_4 dark text_center" style="background-color: {{footer_background_color}}">
+			<div class="panel_body">
+				<div class="credits">{{footer_text}}</div>
+				<div class="wedge-2x"></div>
+				<a href="http://www.endurojs.com/" target="_blank"><img src="https://s3-eu-west-1.amazonaws.com/enduro.website/direct_uploads/1484647615_made_with_enduro.png" srcset="https://s3-eu-west-1.amazonaws.com/enduro.website/direct_uploads/1484647615_made_with_enduro.png 1x, https://s3-eu-west-1.amazonaws.com/enduro.website/direct_uploads/1484647617_made_with_enduro@2x.png 2x"></a>
+			</div>
+		</footer>
+
+	</body>
+
+</html>

@@ -1,0 +1,8 @@
+{
+	"project_name": "enduro_mirror",
+	"project_slug": "em",
+	"s3": {
+		"bucket": "enduro.mirror",
+		"region": "eu-west-1"
+	}
+}

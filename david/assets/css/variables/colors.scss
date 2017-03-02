@@ -1,0 +1,10 @@
+
+// basics
+$scheme-colors: (#fff, #2b2928, #fafdff, #7e0343);
+
+@function scheme($color) {
+	@return nth($scheme-colors, $color)
+}
+
+$white: scheme(1);
+$black: scheme(2);
