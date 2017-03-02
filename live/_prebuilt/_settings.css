@@ -1,0 +1,35 @@
+.full-background {
+	background-image:url('https://images.pexels.com/photos/94273/jetty-beach-sunset-sea-94273.jpeg?w&#x3D;1260&amp;h&#x3D;750&amp;auto&#x3D;compress&amp;cs&#x3D;tinysrgb')
+}
+
+	.login-card #polygon {
+		fill: #fff !important;
+	}
+
+	.login-card #e {
+		fill: #000 !important;
+	}
+
+	.login-card #lettering path {
+		fill: #fff !important;
+		stroke: #fff;
+		stroke-width: 4px;
+	}
+
+	.login-card #lettering {
+	}
+
+	.login-card .login-logo {
+	}
+
+	.login-card .login-logo:before {
+		content: '';
+		width: 100%;
+		height: 100%;
+		background-color: #000;
+		opacity: .5;
+		position: absolute;
+		z-index: -1;
+		-webkit-filter: blur(30px);
+		filter: blur(30px);
+	}
