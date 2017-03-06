@@ -3,9 +3,9 @@
 		{
 			username: 'david',
 			tags: [],
-			salt: 'abb481a2f19e876730b848be55491a2c',
-			hash: '86dd86cda87157a94f13ec4c7694d84a5fa87767e39335ede38fbc5d7c6bbda8',
-			user_created_timestamp: 1488457091332
+			salt: 'f2f87be4f1fff9a6cfaec18fd632860b',
+			hash: '6eb06e97bcfb2d5f7f2c84d12c794ab4197465c5f610e56c068869907e3facdf',
+			user_created_timestamp: 1488641048571
 		}
 	]
 }

@@ -1,5 +1,5 @@
 {
-	name: 'Julia Smith',
+	name: 'David Mourato',
 	specialty: 'Deep learning specialist',
 	$main_image_type: 'image',
 	main_image: 'https://s3-eu-west-1.amazonaws.com/enduro.mirror/direct_uploads/1485880097_juliesmith_low.jpg',
@@ -11,7 +11,7 @@
 			title: 'Autonomous submarine',
 			$image_type: 'image',
 			image: 'https://s3-eu-west-1.amazonaws.com/enduro.mirror/direct_uploads/1485880340_pexels-photo-27631.jpg',
-			link: 'http://newatlas.com/boeing-echo-voyager/42272/'
+			link: '/projects/indexp2.ht'
 		},
 		{
 			title: 'Painting identification',
@@ -49,33 +49,33 @@
 	social: [
 		{
 			$icon_type: 'fa',
-			icon: 'github',
-			text: 'Check out my code at github',
+			icon: 'linkedin',
+			text: 'View my profile at LinkedIn',
+			link: 'http://www.linkedin.com/in/dtmourato'
+		},
+		{
+			$icon_type: 'fa',
+			icon: 'skype',
+			text: 'david.t.mourato',
 			link: 'https://github.com/Gottwik/Enduro'
 		},
 		{
 			$icon_type: 'fa',
-			icon: 'linkedin',
-			text: 'View my profile at LinkedIn',
-			link: 'https://www.linkedin.com/'
-		},
-		{
-			$icon_type: 'fa',
-			icon: 'stack-overflow',
-			text: 'I am also active on stackoverflow',
-			link: 'http://stackoverflow.com/cv/martingottweis'
+			icon: 'download',
+			text: 'Download my CV. Ask for References.',
+			link: 'https://dmourato.github.io/mastercv/cv/DavidMouratoEN2016CV.pdf'
 		}
 	],
 	$hobby_background_type: 'image',
 	hobby_background: 'https://s3-eu-west-1.amazonaws.com/enduro.mirror/direct_uploads/1485880478_pexels-photo-92323.jpeg',
-	hobby_title: 'Book enthusiast',
-	hobby_subtitle: 'Books are the old-school internet',
-	cta_tagline: 'Need a deep learning software developer?',
+	hobby_title: 'Technology enthusiast',
+	hobby_subtitle: 'Eager to learn, to be more efficient and accept new challenges',
+	cta_tagline: 'Want to contact me?',
 	cta_text: 'I am actively looking for new challenges',
-	contact_email: 'contact@endurojs.com',
+	contact_email: 'david.mourato@gmail.com',
 	footer_text: '2017 @enduro.js mirror theme',
 	$footer_background_color_type: 'colorpicker',
 	footer_background_color: '#7e0343',
 	page_title: 'Mirror - enduro.js theme',
-	display_edit_stamp: true
+	display_edit_stamp: false
 }
